@@ -1,0 +1,122 @@
+/*************reset Css************/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+a{color: red;}
+a:hover{text-decoration: underline;}
+/********* Clear floats *********/
+.cf:before, .cf:after, .container:before, .container:after, .row:before, .row:after, ul:before, ul:after, .boxs:before, .boxs:after, .radioList:after, .radioList:before {content:" ";display:table}
+.cf:after, .container:after, .row:after, ul:after, .boxs:after, .radioList:after{clear:both}
+/**************font -face***********/
+/************theme style***********/
+body{font:15px/22px arial; color:#333;}
+h1, h2, h3, h4, h5, h6{font-weight: bold; color: #ff0000;}
+h1{font-size: 40px;}
+h2{font-size: 34px;}
+h3{font-size: 28px;}
+h4{font-size: 22px;}
+h5{font-size: 18px;}
+h6{font-size: 16px; font-weight: normal;}
+body{background-color: #d0d0d0; margin: 0; padding: 0; font-family: georgia;}
+#wrapper{margin: 0 20px; background-color: #ebebea; width: 1000px; height: 1594px; margin: auto;}
+.container{width: 1000px; height: 1594px; margin: auto;}
+.header{height: 122px; background-color: #ffffff; border-top: 10px solid #894aa3;}
+h1{font-size: 26px; color: #666666; padding: 44px 15px 60px 15px; font-family: open-sans; float: left;}
+h1::first-letter {font-size: 36px;}
+.search{width: 216px; height: 28px; background-color: #ebebea; border-radius: 6px; float: right; position: relative; margin: 0 15px;}
+.search input[type=text] {border-radius: 6px; border: none; background-color: #ebebea; width: 216px; height: 28px;}
+.search-icon{width: 10px; height: 10px; float: right; position: absolute; top: 4px; right: 0; margin-right: 10px; background-color: #ffffff; border-radius: 50%; padding: 5px;}
+.mainNavigation{list-style-type: none; overflow: hidden; margin: 0; padding-top: 32px; float: right;}
+.mainNavigation li{display: inline; padding: 18px;}
+.active {color: #000000;}
+li a, .dropbutton {text-align: center; text-decoration: none; color: #666666; font-size: 12px; display: inline-block;}
+li.dropdown {display: inline-block;}
+.dropdown-content {display: none; position: absolute; background-color: #f9f9f9; min-width: 160px; box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); z-index: 1;}
+.dropdown-content a {color: black; padding: 12px 16px; text-decoration: none; display: block; text-align: left;}
+.dropdown-content a:hover {background-color: #f1f1f1}
+.dropdown:hover .dropdown-content {display: block;}
+.contain{background-color: #ebebea; position: relative;}
+.contain .quote{font-style: italic; text-align: center; font-size: 22px; height: 72px; padding: 25px 124px; line-height: 1.5;}
+.banner{height: 380px; background-color: #333333;}
+.item{padding: 0 15px; height: 380px; width: 1000px; box-sizing: border-box; position: relative;}
+.item .caption{height: 122px; width: 452px; position: absolute; bottom: 0; right: 0; background-color: #0f0f0f; color: white;}
+.caption h3{font-size: 20px; color: #c2c2c2; padding: 25px 18px 20px 18px;}
+.caption p{font-size: 13px; color: #bfbfbf; padding-left: 18px;}
+.threecols{height: 280px; background-color: #ffffff;}
+.threecols .col{width: 33.33%; float: left; box-sizing: border-box; padding: 45px 15px 45px 15px; position: relative;}
+.col .img1{height: 48px; width: auto; float: left;}
+.col h2{color: #894aa3; float: left; font-size: 20px; position: absolute; left: 106px;}
+.col p{position: absolute; left: 106px; top: 86px; font-size: 13px;}
+.pcols{height: 424px; width: 100%; background-color: #ebebea;}
+.pcols .polaroid{padding: 12px; box-sizing: border-box; background-color: #ffffff; float: left; width: 30.3%; height: 324px; margin: 51px 15px;}
+.polaroid .para{text-align: center;}
+.polaroid .para h2{font-size: 16px; font-weight: normal; color: #894aa3; padding-top: 12px;}
+.polaroid .para p{font-size: 13px; padding-top: 15px;}
+.img2{width: 100%; height: 180px;}
+.footer{background-color: #ffffff; height: 312px; width: 100%; position: relative;}
+.footer .fcols{height: 312px; width: 100%;}
+.fcols .fourcols{width: 25%; padding: 12px; box-sizing: border-box; float: left;}
+.fourcols h3{font-size: 13px; font-weight: normal; color: #666666; margin-top: 40px;}
+.fourcols p{padding: 30px 0; font-size: 13px; color: #999999;}
+.fourcols ul{padding: 30px 0;}
+.fourcols li a{text-decoration: none; color: #999999; text-align: left;}
+.fourcols h4{font-size: 13px; color: #999999; padding-top: 30px;}
+.fourcols .post{font-size: 11px; color: #999999;}
+.fourcols .con{font-size: 12px; padding-top: 3px; color: #999999;}
+.fourcols .more{float: right; font-size: 12px;}
+.more a{color: #894aa3; text-decoration: none;}
+.down{padding-bottom: 30px;}
+.footer input[type=text]{width: 100%; padding: 10px; margin: 8px 0; display: inline-block; border: 1px solid #ccc; border-radius: 5px; box-sizing: border-box; background-color: #e6e6e6;}
+.footer input[type=submit] {width: 35%; background-color: #e6e6e6; color: #894aa3; padding: 12px; margin: 8px 0; border: none; border-radius: 5px; cursor: pointer; font-weight: bold;}
+.footer input[type=submit]:hover {background-color: #d5d5d5;}
+.footer .copy{background-color: #444444; color: #ffffff; height: 60px; padding: 18px 15px; box-sizing: border-box; width: 100%; font-size: 12px;}
+.copy .l{float: left;}
+.copy .r{float: right;}
+.banner .owl-carousel .owl-nav button.owl-prev, .banner .owl-carousel .owl-nav button.owl-next{width:50px; height:50px; margin-top:-25px; position: absolute; left:15px; top:50%; border:1px solid #666666; border-radius:50%; -webkit-border-radius:50%; z-index: 111;}
+.banner .owl-carousel .owl-nav button.owl-prev{background:rgba(0,0,0,0.85) url(../images/slider-prev.png) center no-repeat;}
+.banner .owl-carousel .owl-nav button.owl-next{background:rgba(0,0,0,0.85) url(../images/slider-next.png) center no-repeat; right:15px; left:auto;}
+.banner .owl-carousel .owl-nav button.owl-prev:hover{background-color:rgba(0,0,0,1); border-color:#fff;}
+.banner .owl-carousel .owl-nav button.owl-next:hover{background-color:rgba(0,0,0,1); border-color:#fff;}
+.banner .owl-dots{position: absolute; left: 15px; bottom: 15px;}
+.banner .owl-carousel button.owl-dot{width:10px; height: 10px; border: 1px solid #666666; background:#666666; border-radius:50%; -webkit-border-radius:50%; margin:0 2px; }
+.banner .owl-carousel button.owl-dot.active	{background:transparent;}
